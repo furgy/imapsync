@@ -20,15 +20,10 @@ jobs:
           CURRENT_VERSION=$(cat VERSION)
           echo "Current version: $CURRENT_VERSION"
           
-          # Get previous version from the last tag or commit
-          PREVIOUS_VERSION=$(git log --oneline -1 --format=%B HEAD^ | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -1)
+          # Get the latest tag that matches version pattern
+          PREVIOUS_VERSION=$(git describe --tags --abbrev=0 2>/dev/null | sed 's/imapsync-//' || echo "0.0.0")
           
-          # If no previous version found, check the parent commit
-          if [ -z "$PREVIOUS_VERSION" ]; then
-            PREVIOUS_VERSION=$(git show HEAD^:VERSION 2>/dev/null || echo "0.0.0")
-          fi
-          
-          echo "Previous version: $PREVIOUS_VERSION"
+          echo "Previous version (from tags): $PREVIOUS_VERSION"
           
           # Check if version was bumped
           if [ "$CURRENT_VERSION" = "$PREVIOUS_VERSION" ]; then
