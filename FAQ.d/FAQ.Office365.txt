@@ -162,7 +162,7 @@ R7. Triple check the hostname then. Try all of these:
 Q. Can imapsync work for users that are administrators for 
 an Office 365 domain? (quick answer: no)
 
-R. I doesn't seem possible to use imap for administrators, so imapsync
+R. It doesn't seem possible to use imap for administrators, so imapsync
 won't be able to work for an administrator's mailbox.
 See:
 https://github.com/imapsync/imapsync/issues/310#issuecomment-1002396218
@@ -223,7 +223,7 @@ If IMAP cannot be enabled or if it doesn't work well, you can try DavMail
 (http://davmail.sourceforge.net/) which acts as an IMAP gateway 
 through Outlook Web Access.
 
-R. Here is a command-line resume that solves most encountered issues when 
+R. Here is a command-line summary that solves most encountered issues when 
    migrating to Office365.
 
     imapsync ... --office2

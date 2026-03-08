@@ -61,7 +61,7 @@ Date of this report: 24 December 2021. Happy Christmas!
 The online imapsync service /X started 9 January 2017,
 5 years ago (1810 days of service).
 
-On average, /X has 51 users per day, each user lunches on average
+On average, /X has 51 users per day, each user launches on average
 6 account migrations, from just 1 launch to many (hundreds).
 
 The total volume /X transferred so far is around 240 TiB coming 
@@ -270,7 +270,7 @@ A. The message "[ALERT] LOGIN DENIED -- COUNTRY IS BLACKLISTED" comes directly
    from the IMAP server at 10.1.161.155
 
 It looks like that the 10.1.161.155 imap server filters incoming 
-connexions based on their IPS. In that case, here are the current 
+connections based on their IPS. In that case, here are the current 
 IPs of the imapsync online service (September 2022):
 
 ks5.lamiral.info      has address      91.121.221.224

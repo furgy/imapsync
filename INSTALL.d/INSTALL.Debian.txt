@@ -6,8 +6,8 @@ https://imapsync.lamiral.info/INSTALL.d/
 https://imapsync.lamiral.info/INSTALL.d/INSTALL.Debian.txt
 
 
-There is four install sections in this document,
-1) one for Debian 9 Stretch, Debian 10 Buster, Debian 11 Bullseye
+There are four install sections in this document,
+1) one for Debian 9 Stretch, Debian 10 Buster, Debian 11 Bullseye, Debian 12 Bookworm
 2) one for all the Debian, called "After installing the dependencies".
 3) one for Debian 8 Jessie (obsolete)
 4) one for Debian 7 Wheezy (even more obsolete)
@@ -20,6 +20,7 @@ Type on a terminal:
 
     cat /etc/debian_version
 
+12.x => Bookworm
 11.x => Bullseye
 10.x => Buster
  9.x => Stretch
@@ -49,6 +50,11 @@ How to install imapsync dependencies on a Debian system?
 
 The repositories are the classical ones, ie, a
 /etc/apt/sources.list file with:
+
+# Debian 12 Bookworm
+deb http://deb.debian.org/debian bookworm main contrib
+
+or
 
 # Debian 11 Bullseye
 deb http://deb.debian.org/debian bullseye main contrib
@@ -129,7 +135,7 @@ Perform a live test showing imapsync job:
 
   ./imapsync --testslive
 
-Now install imapsync on the system (need root priviledges again):
+Now install imapsync on the system (need root privileges again):
 
   cp imapsync /usr/bin/
 
@@ -153,7 +159,7 @@ Feedback is welcome!
 
 How to install imapsync dependencies on a Debian system?
 
-You need root priviledge.
+You need root privilege.
 
 The first command installs standard Debian packages:
 apt install           \
@@ -226,7 +232,7 @@ go to the section "2) After installing the dependencies" above.
 
 How to install imapsync dependencies on a Debian system?
 
-You need root priviledge to run the commands.
+You need root privilege to run the commands.
 
 The first command installs standard Debian packages:
 

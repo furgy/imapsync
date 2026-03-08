@@ -83,7 +83,7 @@ A live test showing imapsync job:
 
   ./imapsync --testslive
 
-Now the install command (need root priviledges again):
+Now the install command (need root privileges again):
 
   cp imapsync /usr/bin/
 

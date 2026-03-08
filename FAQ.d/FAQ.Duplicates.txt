@@ -113,7 +113,7 @@ identify messages.
 
 If you end with many messages skipped then it's very
 good and now you can safely resync the mailbox
-and get rid of the dupplicates messages on host2 with:
+and get rid of the duplicate messages on host2 with:
 
     imapsync ... --useheader "Message-Id" --delete2duplicates
 

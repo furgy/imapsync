@@ -45,7 +45,7 @@ To upgrade to CentOS stream:
 Taken from 
 https://stackoverflow.com/questions/70926799/centos-through-vm-no-urls-in-mirrorlist
 
-and tested successfuly on one of my hosts, an ex-Centos8/CentOS-stream now.
+and tested successfully on one of my hosts, an ex-Centos8/CentOS-stream now.
 
 =======================================================================
                AlmaLinux and Centos 8 and latest imapsync
@@ -219,7 +219,7 @@ Then:
  perl-Test-Deep \
  perl-File-Tail \
  perl-Unicode-String \
- install perl-Proc-ProcessTable 
+ perl-Proc-ProcessTable 
 
   wget https://imapsync.lamiral.info/imapsync
 

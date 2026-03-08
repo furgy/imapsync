@@ -137,7 +137,7 @@ I use "Timeout 3600", 3600 seconds, an hour. I chose this huge timeout
 value because imapsync can spend a long time without talking while
 getting the headers of huge folders of 100k messages.  If you intend
 to offer this service for huge mailboxes or for a long time, I
-strongly recommand you to set this "Timeout 3600" in the Apache
+strongly recommend you to set this "Timeout 3600" in the Apache
 configuration right now because you will sure end up with this timeout
 issue in a few months. You can search for timeouts in the Apache error
 log to see if you have timeout issues.
@@ -273,7 +273,7 @@ Check
 or the safer
   https://yourhost/X/imapsync_form_extra.html
 
-Let's encrypt your site because crendentials should never travel in
+Let's encrypt your site because credentials should never travel in
 clear form. Go to https://certbot.eff.org/instructions
 
 See the Troubleshooting section to fix the systemd Apache 

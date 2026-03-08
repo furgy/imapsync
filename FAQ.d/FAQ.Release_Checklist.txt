@@ -10,7 +10,7 @@ https://imapsync.lamiral.info/FAQ.d/FAQ.Release_Checklist.txt
 =======================================================================
 
 
-Checklist before release a new release:
+Checklist before making a new release:
 
 - Make "imapsync --tests" pass on Linux
 - Make "imapsync --tests" pass on Mac

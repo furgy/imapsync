@@ -33,7 +33,7 @@ genuine IMAP commands used and their responses. The problem with
 generates a very BIG logfile.
 
 R2. If it is not ok with imapsync, the sync finally fails, then 
-consider spliting the whole sync into smaller chunks using 
+consider splitting the whole sync into smaller chunks using 
 the option --search
 
 For example, select messages only for a given year:
